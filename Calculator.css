@@ -4,4 +4,11 @@ int n1 =Int.Parse(Console.ReadLine());
 Console.Write("Second Number");
 int n2 =Int.Parse(Console.ReadLine());
 int c = n1+n2;
-Console.WriteLine("The sum of the number is"+c);
+Console.WriteLine("The sum of the two number is"+c);
+Subtract Functionality is Added
+Console.Write("First Number");
+int n1 =Int.Parse(Console.ReadLine());
+Console.Write("Second Number");
+int n2 =Int.Parse(Console.ReadLine());
+int c = n1-n2;
+Console.WriteLine("The subtraction of the two number is"+c);
